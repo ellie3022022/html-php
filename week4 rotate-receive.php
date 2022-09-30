@@ -23,11 +23,15 @@
          <h2>系上報名-報名結果</h2>
 
          <?php
-              echo $_GET["name"];
-              echo"已經報名了";
+             $name=$_GET["name"];
+             $tel=$_GET["tel"];
+             $people_num=$_GET["people_num"];
+             echo "你填寫的名字為:" . $name . "<br>";
+             echo "你的聯絡電話為:" . $tel;
+             echo "你的報名費為:" . ($people_num-1)*500 . "元,請交給陳老師";
          ?>     
          
       </center>
 
     </body>
-</html>        
+</html>  
