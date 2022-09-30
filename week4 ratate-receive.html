@@ -24,8 +24,15 @@
          <h2>線上報名</h2>
 
          <form action="rotate-receive.php" method="get">
-            姓名:<input type="text" value="我要報名"/>
-            <input type="submit" value="送出資料">
+            姓名:<input type="text" name="name"><br>
+            連絡電話:<input type="text" name="tel"><br>
+            幾人(含自己,除自己外一人500元):<select name="people_num">
+               <option value="1">1人</option>
+               <option value="2">2人</option>
+               <option value="3">3人</option>
+            </select><br>
+
+         <input type="submit" value="送出資料">
          </form>
       </center>
 
