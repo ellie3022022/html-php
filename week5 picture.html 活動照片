@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>動態網頁課程</title>
+</head>
+
+<!-- <body bgcolor="green">-->
+    <body background="back.jpg">
+       <style>a{text-decoration: none;}</style>
+       <center>
+        <h1>動態網頁課程 作業</h1>
+         <hr width="75%" color="black">
+         <big>
+         <a href="home.html">首頁</a>&nbsp;&nbsp;&nbsp;
+         <a href="reason.html">活動緣由</a>&nbsp;&nbsp;&nbsp;
+         <a href="info.html">時程與資訊</a>&nbsp;&nbsp;&nbsp;
+         <a href="picture.html">活動照片</a>&nbsp;&nbsp;&nbsp;
+         <a href="rotate-receive.html">線上報名</a>&nbsp;&nbsp;&nbsp;
+         <a href="contact.html">與我聯絡</a>&nbsp;&nbsp;&nbsp;
+         </big>
+
+         <hr width="75%" color="black">
+         <h2>活動照片</h2>
+      </center>
+
+    </body>
+</html>
