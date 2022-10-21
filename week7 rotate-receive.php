@@ -1,6 +1,7 @@
 <!doctype html>
 <?php
-echo $_POST["login_status"];     
+$login_status= $_POST["login_status"];  
+echo $login_status;   
 ?>     
 <html>
 <head>
